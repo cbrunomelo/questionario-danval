@@ -11,5 +11,5 @@ b -
 c -
 SELECT Pessoas.Nome, Pessoas.Idade, Enderecos.Rua, Enderecos.Numero, Enderecos.Cidade, Enderecos.Estado, Enderecos.Pais
 FROM Pessoas
- INNER JOIN Enderecos ON Pessoas.EnderecoID = Enderecos.ID
- WHERE PessoaID = 123;
+INNER JOIN Enderecos ON Pessoas.EnderecoID = Enderecos.ID
+WHERE PessoaID = 123;
